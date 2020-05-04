@@ -287,6 +287,17 @@
     </div>
 
   </nav>
+      <nav>
+      <% unless user_signed_in? %>
+      <%= link_to "註冊", new_user_registration_path %>
+      <%= link_to "登入", new_user_session_path %>  
+      <% end %> 
+      <% if user_signed_in? %>
+        <%= image_tag(current_user.avatar_thumbnail) %>
+        <%= current_user.name %>
+        <%= link_to "登出", destroy_user_session_path, method: :delete %>
+      <% end %>
+    </nav>
   <script>
     var navbar = new Vue({
       el: '#nav',
@@ -300,3 +311,4 @@
     })
   </script>
 </body>
+
