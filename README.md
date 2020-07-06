@@ -119,18 +119,23 @@ $ rails db:migrate
 
 - Extractor API：註冊即可免費發送 1,000 次 request，申請註冊請參考[官網連結](https://extractarticletext.com/)。
 - Google Cloud Platform API 金鑰：將應用於 Google 小姐 API 串接，申請流程請參考[官方文件](https://cloud.google.com/text-to-speech/docs/quickstart-protocol)。
-- Google 登入金鑰：若您已完成 Google Cloud Platform API 金鑰申請，請於[主控台](https://console.cloud.google.com/)點選側邊欄「API 和服務 → 憑證 → 建立憑證 → 選擇 OAuth 2.0 用戶端 ID」，完成資料填寫即可取得金鑰。
-- Facebook 登入金鑰：申請方式請先登入 [Facebook for Developer](https://developers.facebook.com/apps/)，並建立您的應用程式，選擇 Facebook 登入。完成資料填寫即可取得金鑰。  
+- Google 登入金鑰：若您已完成 Google Cloud Platform API 金鑰申請，請於[主控台](https://console.cloud.google.com/)點選側邊欄「API 和服務 → 憑證 → 建立憑證 → 選擇 OAuth 2.0 用戶端 ID」，完成資料填寫即可取得金鑰。(詳細可參考→[申請第三方登入憑證- Google](https://medium.com/@aileen60222/%E7%94%B3%E8%AB%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%85%A5%E6%86%91%E8%AD%89-google-4387325883ca))
+- Facebook 登入金鑰：申請方式請先登入 [Facebook for Developer](https://developers.facebook.com/apps/)，並建立您的應用程式，選擇 Facebook 登入。完成資料填寫即可取得金鑰。(詳細可參考→[申請第三方登入憑證- Facebook](https://medium.com/@aileen60222/%E7%94%B3%E8%AB%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%85%A5%E6%86%91%E8%AD%89-facebook-c0051dd7c686))
 
 <br>
 
-## 七、開發者
+## 七、資料庫設計
+
+[ERD](https://drawsql.app/MyTraining/diagrams/5d)
+<br>
+
+## 八、開發者
 
 - 張玲涓
     - GitHub：[lynnbright](https://github.com/lynnbright)
     - Email：tv725987@gmail.com
 
-- 錢必久
+- Joey
     - GitHub：[JoeyChien](https://github.com/JoeyChien)
     - Email：aileen60222@gmail.com
 
