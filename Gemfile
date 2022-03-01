@@ -30,7 +30,7 @@ gem 'omniauth-facebook', '~> 6.0'
 gem 'omniauth-google-oauth2', '~> 0.8.0'
 
 # Use Active Storage variant
-gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.12'
 
 # User Google Cloud Text to Speech
 gem "google-cloud-text_to_speech"
