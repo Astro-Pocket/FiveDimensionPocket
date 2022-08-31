@@ -25,7 +25,7 @@ gem 'httparty'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'devise', '~> 4.2'
-gem 'omniauth', '~> 1.9', '>= 1.9.1'
+gem 'omniauth', '~> 1.9'
 gem 'omniauth-facebook', '~> 6.0'
 gem 'omniauth-google-oauth2', '~> 0.8.0'
 
